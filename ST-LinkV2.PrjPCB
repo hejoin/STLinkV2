@@ -54,7 +54,41 @@ GenerateClassCluster=0
 DocumentUniqueId=THVOPIGF
 
 [Document2]
-DocumentPath=..\Саша Гутор\lib\lib.DbLib
+DocumentPath=..\lib\lib.DbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document3]
+DocumentPath=PCB.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LUWLWXEH
+
+[Document4]
+DocumentPath=ST-LinkV2.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -85,6 +119,66 @@ ParameterCount=0
 VariationCount=1
 Variation1=Designator=J2|UniqueId=\BUWHGADK|Kind=1|AlternatePart= 
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=OUT FILES\ST-LinkV2\BOM\BOM-ST-LinkV2.xls
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=OUT FILES\ST-LinkV2\NC Drill\PCB.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=OUT FILES\ST-LinkV2\NC Drill\PCB.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.RUL
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
@@ -256,7 +350,7 @@ SaveSettingsToOutJob=-1
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=HP Deskjet D1300 series
+TargetPrinter=\\SERVERCPTA\Kyocera FS-8025MFP
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -383,16 +477,11 @@ OutputName25=XSpice Netlist
 OutputDocumentPath25=
 OutputVariantName25=
 OutputDefault25=0
-OutputType26=WBSENetlistGeneration
-OutputName26=WEBENCH Simulation Engine
-OutputDocumentPath26=
-OutputVariantName26=
-OutputDefault26=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP Deskjet D1300 series
+TargetPrinter=\\SERVERCPTA\Kyocera FS-8025MFP
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -409,11 +498,6 @@ OutputName3=SIMPLIS
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=WBSENetlist
-OutputName4=WEBENCH Simulation Engine
-OutputDocumentPath4=
-OutputVariantName4=
-OutputDefault4=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -504,41 +588,35 @@ OutputDocumentPath14=
 OutputVariantName14=
 OutputDefault14=0
 PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
-OutputType15=Software Platform Print
-OutputName15=Software Platform Prints
+OutputType15=VHDL Print
+OutputName15=VHDL Prints
 OutputDocumentPath15=
 OutputVariantName15=
 OutputDefault15=0
 PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
-OutputType16=VHDL Print
-OutputName16=VHDL Prints
+OutputType16=Wave Print
+OutputName16=Wave Prints
 OutputDocumentPath16=
 OutputVariantName16=
 OutputDefault16=0
 PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
-OutputType17=Wave Print
-OutputName17=Wave Prints
+OutputType17=WaveSim Print
+OutputName17=WaveSim Prints
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
 PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
-OutputType18=WaveSim Print
-OutputName18=WaveSim Prints
+OutputType18=FSM Print
+OutputName18=FSM Prints
 OutputDocumentPath18=
 OutputVariantName18=
 OutputDefault18=0
-PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
-OutputType19=FSM Print
-OutputName19=FSM Prints
-OutputDocumentPath19=
-OutputVariantName19=
-OutputDefault19=0
-PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=HP Deskjet D1300 series
+TargetPrinter=\\SERVERCPTA\Kyocera FS-8025MFP
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -560,7 +638,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP Deskjet D1300 series
+TargetPrinter=\\SERVERCPTA\Kyocera FS-8025MFP
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Drill
 OutputName1=Drill Drawing/Guides
@@ -976,7 +1054,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=HP Deskjet D1300 series
+TargetPrinter=\\SERVERCPTA\Kyocera FS-8025MFP
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -1013,7 +1091,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=HP Deskjet D1300 series
+TargetPrinter=\\SERVERCPTA\Kyocera FS-8025MFP
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -1193,7 +1271,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=HP Deskjet D1300 series
+TargetPrinter=\\SERVERCPTA\Kyocera FS-8025MFP
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
@@ -1218,21 +1296,16 @@ OutputName4=Footprint Comparison Report
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-OutputType5=Component states check
-OutputName5=Vault's components states check
+OutputType5=Configuration compliance
+OutputName5=Environment configuration compliance check
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-OutputType6=Configuration compliance
-OutputName6=Environment configuration compliance check
-OutputDocumentPath6=
-OutputVariantName6=
-OutputDefault6=0
 
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=HP Deskjet D1300 series
+TargetPrinter=\\SERVERCPTA\Kyocera FS-8025MFP
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=ExportIDF
 OutputName1=Export IDF
@@ -1534,6 +1607,126 @@ NetClassManualEnabled=1
 SelectedOnly=0
 UpdateVariants=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=lib.DbLib/Caps Polar$
+ComponentDesignItemID0=CapPolar22u
+ComponentSymbolReference0=CapPol
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=lib.DbLib/Caps$
+ComponentDesignItemID1=Cap0u1
+ComponentSymbolReference1=Cap
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=lib.DbLib/Connectors$
+ComponentDesignItemID2=47346-0001
+ComponentSymbolReference2=USB
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=lib.DbLib/Connectors$
+ComponentDesignItemID3=CONN-1.25MM6P
+ComponentSymbolReference3=Header 6
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=lib.DbLib/Connectors$
+ComponentDesignItemID4=Header 2x2
+ComponentSymbolReference4=Header 4
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=lib.DbLib/Connectors$
+ComponentDesignItemID5=Header 6X2
+ComponentSymbolReference5=Header 6X2
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=lib.DbLib/Diodes$
+ComponentDesignItemID6=ESDA5V3SC5
+ComponentSymbolReference6=ESDA5V3SC5
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=lib.DbLib/Diodes$
+ComponentDesignItemID7=FYLS-1210 EGW
+ComponentSymbolReference7=LedDual
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=lib.DbLib/Diodes$
+ComponentDesignItemID8=MBR0520
+ComponentSymbolReference8=Schottky
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=lib.DbLib/ICs$
+ComponentDesignItemID9=LM1117-3.3
+ComponentSymbolReference9=LM1117
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=lib.DbLib/ICs$
+ComponentDesignItemID10=STM32F103C8T6
+ComponentSymbolReference10=STM32F103C8T6
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=lib.DbLib/Resistor$
+ComponentDesignItemID11=Res-1.5k-SMD 0603
+ComponentSymbolReference11=Res
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=lib.DbLib/Resistor$
+ComponentDesignItemID12=Res-100k-SMD 0603
+ComponentSymbolReference12=Res
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=lib.DbLib/Resistor$
+ComponentDesignItemID13=Res-10R-SMD 0603
+ComponentSymbolReference13=Res
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=lib.DbLib/Resistor$
+ComponentDesignItemID14=Res-220R-SMD 0603
+ComponentSymbolReference14=Res
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=lib.DbLib/Resistor$
+ComponentDesignItemID15=Res-22R-SMD 0603
+ComponentSymbolReference15=Res
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=lib.DbLib/Resistor$
+ComponentDesignItemID16=Res-4.7k-SMD 0603
+ComponentSymbolReference16=Res
+ComponentUpdate16=1
+ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=lib.DbLib/Resistor$
+ComponentDesignItemID17=Res-510R-SMD 0603
+ComponentSymbolReference17=Res
+ComponentUpdate17=1
+ComponentIsDeviceSheet17=0
+ComponentLibIdentifierKind18=Library Name And Type
+ComponentLibraryIdentifier18=lib.DbLib/Resistor$
+ComponentDesignItemID18=Res-680R-SMD 0603
+ComponentSymbolReference18=Res
+ComponentUpdate18=1
+ComponentIsDeviceSheet18=0
+ComponentLibIdentifierKind19=Library Name And Type
+ComponentLibraryIdentifier19=sch.SchLib
+ComponentDesignItemID19=XTALGEN
+ComponentSymbolReference19=XTALGEN
+ComponentUpdate19=1
+ComponentIsDeviceSheet19=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1547,6 +1740,76 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Category
+ParameterUpdate0=1
+ParameterName1=Comment
+ParameterUpdate1=1
+ParameterName2=Component Kind
+ParameterUpdate2=1
+ParameterName3=ComponentLink1Description
+ParameterUpdate3=1
+ParameterName4=ComponentLink1URL
+ParameterUpdate4=1
+ParameterName5=Description
+ParameterUpdate5=1
+ParameterName6=Footprint Patch
+ParameterUpdate6=1
+ParameterName7=Footprint_Description
+ParameterUpdate7=1
+ParameterName8=Human_Readable
+ParameterUpdate8=1
+ParameterName9=Library Reference
+ParameterUpdate9=1
+ParameterName10=Manufacturer
+ParameterUpdate10=1
+ParameterName11=Manufacturer Part Number
+ParameterUpdate11=1
+ParameterName12=Package
+ParameterUpdate12=1
+ParameterName13=Part Number
+ParameterUpdate13=1
+ParameterName14=Value
+ParameterUpdate14=1
+ParameterName15=Voltage
+ParameterUpdate15=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=C0603C
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=C0603R
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=CAPMP3216X180N
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=CONN-1.25MM6P
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=FYLS-1210
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=HDR2X2
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=HDR2X6
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=LQFP48
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=SOD-123
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=SOT223
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=SOT23-5
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=USB_Micro-B_FCI_SMD
+ModelUpdate11=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

@@ -1,2 +1,2 @@
 Record=TopLevelDocument|FileName=St-LinkV2.SchDoc
-Record=HARD_PROCESSOR_COMPONENT|BaseComponentDesignator=U?|DocumentName=St-LinkV2.SchDoc|LibraryReference=STM32F103C8T6|SubProjectPath= |Configuration= |Description=Microcontroller STM32F103C8T6|NexusDeviceId=STM32F103C8T6|SubPartUniqueId1=DKSHNXMH|SubPartDocPath1=St-LinkV2.SchDoc
+Record=HARD_PROCESSOR_COMPONENT|BaseComponentDesignator=U4|DocumentName=St-LinkV2.SchDoc|LibraryReference=STM32F103C8T6|SubProjectPath= |Configuration= |Description=Microcontroller STM32F103C8T6|NexusDeviceId=STM32F103C8T6|SubPartUniqueId1=DKSHNXMH|SubPartDocPath1=St-LinkV2.SchDoc
