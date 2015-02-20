@@ -121,62 +121,58 @@ Variation1=Designator=J2|UniqueId=\BUWHGADK|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=OUT FILES\ST-LinkV2\BOM\BOM-ST-LinkV2.xls
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=OUT FILES\ST-LinkV2\NC Drill\PCB.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument3]
+[GeneratedDocument2]
 DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument3]
 DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument4]
 DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument5]
 DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument6]
 DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument7]
 DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.GKO
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument8]
 DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument9]
 DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument10]
 DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument11]
 DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument12]
 DocumentPath=OUT FILES\ST-LinkV2\NC Drill\PCB.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument13]
 DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.REP
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument14]
 DocumentPath=OUT FILES\ST-LinkV2\Gerber\PCB.RUL
 DItemRevisionGUID=
 
