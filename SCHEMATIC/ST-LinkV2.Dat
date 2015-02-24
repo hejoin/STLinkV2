@@ -1,0 +1,21 @@
+Field=Designator~String~Designator~213|Field=Value~String~Value~86|Field=Voltage~String~Voltage~77|Field=Manufacturer Part Number~String~Manufacturer Part Number~137|Field=Package~String~Package~226|Field=Description~String~Description~245|Field=Footprint_Description~String~Footprint_Description~412|Field=Quantity~Integer~Quantity~73|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~ST-LinkV2.PrjPCB|ReportField=ProjectFullPath~C:\Users\Денис\SkyDrive\1. Проекты\STLinkV2\ST-LinkV2.PrjPCB|ReportField=Title~BOM For Project [ST-LinkV2.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~44|ReportField=ReportTime~23:37:38|ReportField=ReportDate~24.02.2015|ReportField=ReportDateTime~24.02.2015 23:37:38|ReportField=OutputName~BOM|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~|ReportField=CurrentTime~|ReportField=Date~|ReportField=DocumentFullPathAndName~|ReportField=DocumentName~|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~|ReportField=Organization~|ReportField=PageSetup~Record=PageOptions:CenterHorizontal=True:CenterVertical=True:PrintScale=0.71:XCorrection=1.00:YCorrection=1.00:PrintKind=2:BorderSize=5000000:LeftOffset=0:BottomOffset=0:Orientation=2:PaperLength=1000:PaperWidth=1000:Scale=100:PaperSource=7:PrintQuality=-3:MediaType=1:DitherType=10:PrintScaleMode=1:PaperKind=A4:PaperIndex=9|ReportField=ProjectName~|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~ST-LinkV2.PrjPCB|ReportField=DataSourceFullPath~C:\Users\Денис\SkyDrive\1. Проекты\STLinkV2\ST-LinkV2.PrjPCB
+C1, C2, C3, C6, C8, C9, C10|0u1|||SMD 0603|Capacitor 0u1|Chip Capacitorr EIA 0603. METRIC 1608, 2-Leads, Body 1,6x0,8mm, IPC Medium Density|7
+C4|22u|10V||CAPMP3216X180N|Polarized capacitor 22u*10V|Capacitor, polarized, Molded Body, EIA 535BAAC size A; 3.20mm L X 1.60mm W X 1.80mm H|1
+C5, C7|22p|||SMD 0603|Capacitor 22p|Chip Capacitorr EIA 0603. METRIC 1608, 2-Leads, Body 1,6x0,8mm, IPC Medium Density|2
+D1, D2||||SOD-123|Diode MBR0520||2
+LD1||||0805|Diode Led Green||1
+LD2|||FYLS-1210 EGW|2.0X1.25X1.1||Generic 1210 Bi-Colour SMT LED|1
+P1|||||Connector Header 4|Connector; Header; 4 Position|1
+P2|||47346-0001||Micro-USB B Receptacle with Flange, Bottom Mount, Surface Mount, Lead-Free|Micro-USB B Receptacle with Flange, Bottom Mount, Surface Mount, Lead-Free|1
+P3|||||Connector IDC-14MS-EDGE||1
+R1|10R|||SMD 0603|Resistor 10R SMD 0603|Chip Resistor EIA 0603. METRIC 1608, 2-Leads, Body 1,6x0,8mm, IPC Medium Density|1
+R2, R3, R4, R5, R6, R7, R8, R9, R10, R11|22R|||SMD 0603|Resistor 22R SMD 0603|Chip Resistor EIA 0603. METRIC 1608, 2-Leads, Body 1,6x0,8mm, IPC Medium Density|10
+R12|1.5k|||SMD 0603|Resistor 1.5k SMD 0603|Chip Resistor EIA 0603. METRIC 1608, 2-Leads, Body 1,6x0,8mm, IPC Medium Density|1
+R13, R14|4.7k|||SMD 0603|Resistor 4.7k SMD 0603|Chip Resistor EIA 0603. METRIC 1608, 2-Leads, Body 1,6x0,8mm, IPC Medium Density|2
+R15, R17, R18, R19|680R|||SMD 0603|Resistor 680R SMD 0603|Chip Resistor EIA 0603. METRIC 1608, 2-Leads, Body 1,6x0,8mm, IPC Medium Density|4
+R16, R21, R22|220R|||SMD 0603|Resistor 220R SMD 0603|Chip Resistor EIA 0603. METRIC 1608, 2-Leads, Body 1,6x0,8mm, IPC Medium Density|3
+R20|100k|||SMD 0603|Resistor 100k SMD 0603|Chip Resistor EIA 0603. METRIC 1608, 2-Leads, Body 1,6x0,8mm, IPC Medium Density|1
+U1, U2|||ESDA5V3SC5|SOT23-5|Quad Zenner array for ESD protection, 5.3V||2
+U3|||LM1117MPX-3.3/NOPB|SOT223|Voltage Regulators LM1117-3.3|SOT-223/SC-73; 4 Leads; Body 6.7 x 7.3 mm, inc. leads (LxW max)|1
+U4|||STM32F103C8T6|LQFP48|Microcontroller STM32F103C8T6||1
+Y1|8MHz|||HC-49H|Crystal 8MHz||1
